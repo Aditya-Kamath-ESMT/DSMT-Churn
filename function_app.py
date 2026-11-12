@@ -1,5 +1,6 @@
-import azure.functions as func
 import logging
+
+import azure.functions as func
 
 from prediction import make_prediction
 
