@@ -36,6 +36,7 @@ def predict_schema():
     """Describe the expected fields for /predict."""
     return Customer.model_json_schema()
 
+
 @app.get("/health")
 def health():
     """Health check endpoint."""

@@ -41,9 +41,7 @@ st.write("Enter customer details and get a churn prediction.")
 
 tenure = st.selectbox("Tenure (mths)", options=list(range(121)))
 
-monthly = st.slider(
-    "Monthly Charges", min_value=0, max_value=1000, step=1, value=0
-)
+monthly = st.slider("Monthly Charges", min_value=0, max_value=1000, step=1, value=0)
 
 techsupport = int(st.toggle("Tech Support", value=False))
 
